@@ -43,12 +43,6 @@ def perform_analysis(ticker, analysis_type):
         st.write("Performing fundamental analysis...")
         # Add your fundamental analysis logic here
         # Page Config
-st.set_page_config(page_title="Stock Fundamental Analysis", layout="wide")
-
-# Sidebar
-st.sidebar.title("Stock Analysis")
-ticker = st.sidebar.text_input("Enter Stock Ticker:", value="AAPL")
-
 # Fetch Data for Main Section
 if ticker:
     stock = yf.Ticker(ticker)
