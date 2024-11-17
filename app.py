@@ -44,10 +44,10 @@ def perform_analysis(ticker, analysis_type):
         # Add your fundamental analysis logic here
         # Page Config
 # Fetch Data for Main Section
-if ticker:
-    stock = yf.Ticker(ticker)
-    info = stock.info
-    historical = stock.history(period="1y")
+    if ticker:
+        stock = yf.Ticker(ticker)
+        info = stock.info
+        historical = stock.history(period="1y")
     
     # Layout
     st.title(f"{info['longName']} ({ticker.upper()})")
