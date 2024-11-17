@@ -1,5 +1,7 @@
-yfinance
 streamlit
-plotly
-mathpotlib
+yfinance
 pandas
+numpy
+plotly
+wikipedia-api
+scikit-learn
