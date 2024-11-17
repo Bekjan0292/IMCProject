@@ -1,8 +1,8 @@
 import streamlit as st
-from pages.main_page import main_page
-from pages.glossary import glossary_page
-from pages.news import news_page
-from pages.about import about_page
+from Pages.main_page import main_page
+from Pages.glossary import glossary_page
+from Pages.news import news_page
+from Pages.about import about_page
 
 # Sidebar Navigation
 st.set_page_config(layout="wide")
